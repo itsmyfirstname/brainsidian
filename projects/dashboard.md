@@ -2,14 +2,15 @@
 Return current projects using a `TABLE`, grouped by implicit fields[^1]
 ```dataview
 TABLE
+	 file.folder as Name,
+	 priority as Priority
 FROM "projects" AND #in-progress
-GROUP BY file.folder
 ```
 
 ## Completed Projects
 Return completed projects using a `LIST`, using implicit fields[^1]
 ```dataview
-LIST file.folder 
+LIST
 FROM "projects" AND #completed 
 ```
 

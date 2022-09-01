@@ -27,6 +27,7 @@ some context
 ##### Metadata
 topic:: #default
 subject:: #default
+status:: #in-progress 
 
 
 

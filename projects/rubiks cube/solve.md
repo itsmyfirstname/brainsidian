@@ -171,7 +171,7 @@ right handed 4 moves until the yellow corner is matched
 
 
 ## Tasks
-- [ ] TBD
+- [x] Solve da cooobe
 
 
 ---
